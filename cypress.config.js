@@ -1,8 +1,8 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  allowCypressEnv: false,
-
+  screenshotOnRunFailure: true,
+  video: true,
   e2e: {
     baseUrl: 'https://www.saucedemo.com',
     
