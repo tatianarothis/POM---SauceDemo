@@ -53,7 +53,7 @@ jobs:
           path: cypress/screenshots
 
   deploy:
-    needs: test
+    needs: cypress-run
     runs-on: ubuntu-latest
 
     steps:
